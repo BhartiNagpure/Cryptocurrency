@@ -1,0 +1,38 @@
+.row-hover:hover {
+    background-color: #131111;
+}
+.container{
+    flex-direction: column;
+}
+.sidebar {
+    width: 30%;
+     display:flex;
+      flex-direction:column;
+       align-items:center;
+        margin-top:25;
+        border-right:2px solid grey
+}
+
+.description{
+    width: 100%;
+    font-family: "Montserrat";
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.marketData{
+    align-self: start;
+    padding: 25px;
+    padding-top: 10px;
+    width: 100%;
+}
+@media screen and (min-width:700px) {
+    .container{
+        display: flex;
+        flex-direction:row;
+        /* align-items: center; */
+    }
+    
+}
