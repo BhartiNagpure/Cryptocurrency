@@ -2,8 +2,8 @@ import axios from 'axios';
 import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { CryptoState } from "../CryptoContext";
-import { HistoricalChart } from "../config/api";
-import { CircularProgress, createTheme, Hidden, ThemeProvider } from '@material-ui/core';
+// import { HistoricalChart } from "../config/api";
+import { CircularProgress, createTheme, ThemeProvider } from '@material-ui/core';
 import './CoinInfo.css';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement, Legend } from 'chart.js';
@@ -32,7 +32,7 @@ const fetchHistoricData = async () => {
 
 useEffect(() => {
   fetchHistoricData();
-  console.log('data3', historicData)
+  // console.log('data3', historicData)
 }, [currency, days, coin, historicData]);
 
 
@@ -57,7 +57,7 @@ return (
             thickness={1}
           />
         ) : (
-          <div style={{ width: '900px', height: '700px' }}>
+          <div className='graph' style={{width:"100%"}}>
             <Line
               data={{
                 labels: historicData.map((coin) => {

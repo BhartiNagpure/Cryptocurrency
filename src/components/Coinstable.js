@@ -35,7 +35,7 @@ function Coinstable() {
     const darkTheme = createTheme({
         palette: {
             primary: {
-                main: "#fff",
+                main: "#FFD700",
             },
             type: "dark",
         },
@@ -122,7 +122,7 @@ function Coinstable() {
                     )
                     }
                 </TableContainer>
-                <Pagination 
+                <Pagination color='primary'
                  className={{ul:"line"}}
                  style={{
                     padding:20,

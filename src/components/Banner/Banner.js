@@ -2,7 +2,6 @@ import { Container, makeStyles, Typography } from '@material-ui/core'
 import React from 'react'
 import Carousal from './Carousal';
 
-
 const useStyles= makeStyles(() => ({
     banner:{
         backgroundImage:"url(./banner2.jpg)"
@@ -30,8 +29,7 @@ function Banner() {
     <div className={classes.banner}>
         <Container className={classes.bannercontent}>
         <div className={classes.tagline}>
-            {/* <Typography variant='h6' style={{fontWeight:"bold", color:"darkgray",  fontFamily:"Montserrat"}}>Welcome to... </Typography> */}
-        <Typography variant='h2' style={{fontWeight:"bold", marginBottom:15, fontFamily:"Montserrat"}}>
+        <Typography  variant='h2' style={{fontWeight:"bold", marginBottom:15, fontFamily:"Montserrat"}}>
           CryptoVerse
         </Typography>
         <Typography variant='subtitle2' style={{color:"darkgray", textTransform:"capitalize", fontFamily:"Montserrat"}}>
