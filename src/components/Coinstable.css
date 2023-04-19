@@ -28,7 +28,7 @@
     padding-top: 10px;
     width: 100%;
 }
-@media screen and (min-width:700px) {
+@media screen and (min-width:900px) {
     .container{
         display: flex;
         flex-direction:row;

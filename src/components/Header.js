@@ -34,7 +34,7 @@ const Header = () => {
                 <AppBar color='transparent' position='static'>
                     <Container>
                         <Toolbar>
-                            <Typography onClick={()=> navigate("/")} className={classes.title} variant="h6"> CryptoVerse</Typography>
+                            <Typography onClick={()=> navigate("/Cryptocurrency/")} className={classes.title} variant="h6"> CryptoVerse</Typography>
                             <Select  variant='outlined'
                                 style={{ width: 100, height: 40, marginRight: 15 }}  value={currency}
                                 onChange={(e) => setCurrency(e.target.value)}>
