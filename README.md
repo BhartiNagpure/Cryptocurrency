@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Cryptocurrency React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## TechStack
+HTML
+MaterialUI
+ReactJs
+CSS
 
 ## Available Scripts
 
