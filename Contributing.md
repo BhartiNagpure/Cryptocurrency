@@ -56,18 +56,17 @@ If you encounter any bugs or issues while using the app, please report them thro
 
 ## Licensing and Intellectual Property
 
-By contributing code to this project, you agree to license your contributions under the project's LICENCE.txt. Please make sure you have read and understood the license terms before submitting any contributions.
+By contributing code to this project, you agree to license your contributions under the project's #LICENCE.txt. Please make sure you have read and understood the license terms before submitting any contributions.
 
 ## Code of Conduct
 
-We expect all contributors to adhere to our CODE_OF_CONDUCT. It promotes a welcoming and inclusive community environment. Please familiarize yourself with the code of conduct and report any violations to the project maintainers.
+We expect all contributors to adhere to our #CODE_OF_CONDUCT. It promotes a welcoming and inclusive community environment. Please familiarize yourself with the code of conduct and report any violations to the project maintainers.
 
 ## Communication Channels
 
 If you have any questions, need assistance, or want to engage with the community, you can reach out through the following communication channels:
 
 - [bhartinagpure2409@gmail.com]
-- [@bhartinagp27830]
 - [https://www.linkedin.com/in/nagpurebharti/]
 
 ## Acknowledgment and Recognition
